@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../assets/bg.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 60vmax;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}    
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 2.4rem;   
+}
+.custom-nav #navbarNav .navbar-nav .nav-item button {
+    background-color: #6765F4;
+    border-radius: 10em;
+    border: 0;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: white;
+    
+}
+.custom-nav img {
+    width: 70px;
+    height: 70px;
+}
+.custom-nav .navbar-brand {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #6765F4;
+    
+}
+.custom-section {
+    margin-top: 6em;
+    margin-left: 5px;
+}
+.custom-section h3 {
+    color: #A4BBFC;
+    font-weight: 700;
+    font-size: 4rem;
+    white-space: nowrap;
+    
+}
+.custom-section p {
+    margin-top: 1em;
+}
+.custom-section a {
+    display: inline-block;
+    color: white;
+    background-color: #6765F4;
+    border-radius: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    margin-top: 2em;
+    transition: 0.5s ease-in;
+    border: 1px solid transparent;
+}
+.custom-section a:hover {
+    color: #A4BBFC;
+    border: solid 1px #A4BBFC;
+    background-color: transparent;
+}
